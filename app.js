@@ -11,6 +11,6 @@ app.get("/resume/policy",(req,res)=>{
     res.render("resume-app-privacy-policy");
 })
 
-app.listen(8080,()=>{
+app.listen(8080,"localhost",()=>{
     console.log("Server is running on port 8080")
 })
