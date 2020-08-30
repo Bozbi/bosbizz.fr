@@ -8,7 +8,7 @@ app.get("/",(req,res)=>{
     res.send("welcome to bosbizz.fr")
 })
 
-app.get("/resume/policy",(req,res)=>{
+app.get("/resume/privacy",(req,res)=>{
     res.render("resume-app-privacy-policy");
 })
 
