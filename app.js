@@ -2,6 +2,7 @@ const express = require("express")
 app = express()
 
 app.set("view engine", "ejs")
+app.set('views','./views')
 
 app.get("/",(req,res)=>{
     res.send("welcome to bosbizz.fr")
