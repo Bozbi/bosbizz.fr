@@ -22,6 +22,19 @@ app.get("/download/awesome_flow",(req,res)=>{
     res.download(__dirname+'/public/apks/awesome_flow.apk')
 })
 
+app.get("/download/resume",(req,res)=>{
+    res.download(__dirname+'/public/apks/resume.apk')
+})
+
+app.get("/download/real_estate_manager",(req,res)=>{
+    res.download(__dirname+'/public/apks/real_estate_manager.apk')
+})
+
+app.get("/download/go_4_lunch",(req,res)=>{
+    res.download(__dirname+'/public/apks/go_4_lunch.apk')
+})
+
+
 app.listen(port,'localhost',()=>{
     console.log("Server is running on port 8080")
 })
