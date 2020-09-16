@@ -18,8 +18,8 @@ app.get("/resume/privacy",(req,res)=>{
     res.render("resume-app-privacy-policy");
 })
 
-app.get("/download/awesome_flow",(req,res)=>{
-    res.download(__dirname+'/public/apks/awesome_flow.apk')
+app.get("/download/amazing_flow",(req,res)=>{
+    res.download(__dirname+'/public/apks/amazing_flow.apk')
 })
 
 app.get("/download/resume",(req,res)=>{
