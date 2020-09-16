@@ -34,6 +34,10 @@ app.get("/download/go_4_lunch",(req,res)=>{
     res.download(__dirname+'/public/apks/go_4_lunch.apk')
 })
 
+app.get("/download/oc_pizza",(req,res)=>{
+    res.download(__dirname+'/public/docs/oc_pizza_documentation.zip')
+})
+
 
 app.listen(port,'localhost',()=>{
     console.log("Server is running on port 8080")
